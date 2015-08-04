@@ -1,0 +1,33 @@
+{
+  "name": "commsec-advisory-services",
+  "version": "1.0.0",
+  "description": "Scrape portfolio information from CommsecAdvisoryServices.com.au",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eugeneware/commsec-advisory-services"
+  },
+  "keywords": [
+    "commsec",
+    "scrape",
+    "finance",
+    "financial"
+  ],
+  "author": "Eugene Ware <eugene@noblesamurai.com>",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/eugeneware/commsec-advisory-services/issues"
+  },
+  "dependencies": {
+    "phantomjs-bin": "^1.0.1",
+    "q": "^1.4.1",
+    "selenium-webdriver": "^2.46.1"
+  },
+  "devDependencies": {
+    "expect.js": "~0.3.0",
+    "mocha": "~2.1.0"
+  }
+}
