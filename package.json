@@ -22,9 +22,10 @@
     "url": "https://github.com/eugeneware/commsec-advisory-services/issues"
   },
   "dependencies": {
+    "mocha": "^2.3.3",
     "phantomjs-bin": "^1.0.1",
     "q": "^1.4.1",
-    "selenium-webdriver": "^2.46.1"
+    "selenium-webdriver": "2.46.1"
   },
   "devDependencies": {
     "expect.js": "~0.3.0",
