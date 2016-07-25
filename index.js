@@ -54,17 +54,16 @@ CSA.prototype.login = function (username, password, cb) {
 
   driver.get(CSA_HOME_URL);
   driver.sleep(500);
-  driver.findElement(webdriver.By.id('TradingAndCash')).click();
   driver.wait(function () {
-    return driver.isVisible('#ctl00_AdviserLoginControl_txtTradingAndCashUsername');
+    return driver.isVisible('#ctl00_AdviserLoginControl_txtACUserName');
   }, 20000, 'cant find username');
   driver.findElement(webdriver.By.id(
-    'ctl00_AdviserLoginControl_txtTradingAndCashUsername'))
+    'ctl00_AdviserLoginControl_txtACUserName'))
     .sendKeys(username);
   driver.findElement(webdriver.By.id(
-    'ctl00_AdviserLoginControl_txtTradingAndCashPassword'))
+    'ctl00_AdviserLoginControl_txtACPassword'))
     .sendKeys(password);
-  driver.findElement(webdriver.By.id('ctl00_AdviserLoginControl_btnTradingAndCashLogin_implementation_field')).click();
+  driver.findElement(webdriver.By.id('ctl00_AdviserLoginControl_btnACLogIn_implementation_field')).click();
 
   // Wait till logged in
   driver.wait(function () {
