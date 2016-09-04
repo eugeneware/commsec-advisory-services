@@ -108,11 +108,11 @@ CSA.prototype.portfolioSummary = function (cb) {
   var values = {
     '#ctl00_BodyPlaceHolder_StatementsPortfolioSummaryView1_lblPortfolioValue_field':
       'balance',
-    '#ctl00_BodyPlaceHolder_StatementsPortfolioSummaryView1_gvSharePortfolio_Underlying_ctl03_lblProfitLoss_field':
+    '#ctl00_BodyPlaceHolder_StatementsPortfolioSummaryView1_gvCASSharePortfolio_Underlying_ctl03_lblProfitLoss_field':
       'profitLoss',
-    '#ctl00_BodyPlaceHolder_StatementsPortfolioSummaryView1_gvSharePortfolio_Underlying_ctl03_lblTotalCost_field': 'totalCost',
-    '#ctl00_BodyPlaceHolder_StatementsPortfolioSummaryView1_gvSharePortfolio_Underlying_ctl03_lblMarketValue_field': 'marketValue',
-    '#ctl00_BodyPlaceHolder_StatementsPortfolioSummaryView1_gvSharePortfolio_Underlying_ctl03_lblChange_field': 'changePct'
+    '#ctl00_BodyPlaceHolder_StatementsPortfolioSummaryView1_gvCASSharePortfolio_Underlying_ctl03_lblTotalCost_field': 'totalCost',
+    '#ctl00_BodyPlaceHolder_StatementsPortfolioSummaryView1_gvCASSharePortfolio_Underlying_ctl03_lblMarketValue_field': 'marketValue',
+    '#ctl00_BodyPlaceHolder_StatementsPortfolioSummaryView1_gvCASSharePortfolio_Underlying_ctl03_lblChange_field': 'changePct'
   };
 
   for (var selector in values) {
