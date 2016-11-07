@@ -1,6 +1,6 @@
 {
   "name": "commsec-advisory-services",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Scrape portfolio information from CommsecAdvisoryServices.com.au",
   "main": "index.js",
   "scripts": {
@@ -22,13 +22,12 @@
     "url": "https://github.com/eugeneware/commsec-advisory-services/issues"
   },
   "dependencies": {
-    "mocha": "^2.3.3",
-    "phantomjs-bin": "^1.0.1",
+    "phantomjs-bin": "^2.1.1",
     "q": "^1.4.1",
     "selenium-webdriver": "2.46.1"
   },
   "devDependencies": {
-    "expect.js": "~0.3.0",
-    "mocha": "~2.1.0"
+    "expect.js": "^0.3.1",
+    "mocha": "^3.1.2"
   }
 }
