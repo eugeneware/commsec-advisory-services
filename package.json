@@ -1,6 +1,6 @@
 {
   "name": "commsec-advisory-services",
-  "version": "1.0.4",
+  "version": "2.0.0",
   "description": "Scrape portfolio information from CommsecAdvisoryServices.com.au",
   "main": "index.js",
   "scripts": {
